@@ -8,7 +8,7 @@ import useTranslation from '../hooks/useTranslation';
 import { Home, Trophy, LogOut, LogIn, MessageSquare, Sun, Moon } from 'lucide-react';
 
 function Navigation() {
-  const authUser = useSelector((state) => state.authUsers);
+  const authUser = useSelector((state) => state.authUser);
   const theme = useSelector((state) => state.theme);
   const language = useSelector((state) => state.language);
   const dispatch = useDispatch();
